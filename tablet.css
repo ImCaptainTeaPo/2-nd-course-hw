@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 601px) and (max-width: 1024px) {
 
     /* Общие настройки */
     body {
@@ -170,5 +170,10 @@
     .footer__title {
         font-size: 18px;
         padding-top: 30px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 767px) {
+    .mini-games__stars {
+        overflow: hidden;
     }
 }
