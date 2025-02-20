@@ -44,7 +44,7 @@ for (let day = firstFriday; day <= daysInMonth; day += 7) {
     console.log(`Сегодня пятница, ${day}-е число. Необходимо подготовить отчет.`);
 }
 
-//не домашка, сохранить, если заработает
+//Доп задание (сколько пятниц 13 в году)
 function countFridaysOn13th(year) {
     let friday13Count = 0;
     let months = [];
