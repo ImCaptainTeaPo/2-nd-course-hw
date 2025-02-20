@@ -57,7 +57,7 @@ function getSmallerNumber(a, b) {
        console.log('Вы ввели не число');
     }
  }
- // askAge()
+ askAge()
 
  //ex5
  function multiplyNumbers(a, b) {
@@ -81,7 +81,7 @@ function getSmallerNumber(a, b) {
     const cube = number ** 3;
     return `${number} в кубе равняется ${cube}`;
  }
-// console.log(calculateCube());
+console.log(calculateCube());
 
 //ex7
 const circle1 = {
